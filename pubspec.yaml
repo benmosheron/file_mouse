@@ -1,5 +1,7 @@
 name: file_mouse
 version: 0.0.1
-description: A simple console application.
-#dependencies:
-#  foo_bar: '>=1.0.0 <2.0.0'
+description: Copies all files from an input location (first argument) to an output location (second argument)
+ with an optional file name regex filter (third argument). The first matching group of the regex will be prepended
+ onto the new file name for each file.
+dependencies:
+  path:
